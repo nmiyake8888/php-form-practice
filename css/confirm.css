@@ -1,0 +1,51 @@
+body {
+    background-color: #555;
+    color: #f8f8f8;
+    font-family: Montserrat;
+}
+
+h1 {
+    text-align: center;
+    color: #9AC2DA;
+}
+
+.info_wrapper {
+    width: 400px;
+    margin: 0 auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #f8f8f8;
+    text-align: left;
+    padding: 12px;
+}
+
+.button_wrapper {
+    margin-top: 40px;
+    display: flex;
+}
+
+.button_wrapper div {
+    width: 100px;
+}
+
+#back_button {
+    background-color: #6793AE;
+    color: #f8f8f8;
+    font-size: 20px;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+#submit_button {
+    background-color: #E8DE95;
+    color: #555;
+    font-size: 20px;
+    border-radius: 8px;
+    padding: 8px;
+}
