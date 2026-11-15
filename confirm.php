@@ -8,17 +8,6 @@ $age = $_POST["age"];
 $safe_name = htmlspecialchars($name, ENT_QUOTES, 'UTF-8');
 $safe_email = htmlspecialchars($email, ENT_QUOTES, 'UTF-8');
 $safe_age = htmlspecialchars($age, ENT_QUOTES, 'UTF-8');
-
-// 登録ボタンが押された場合
-if (isset($_POST["submit"])) {
-
-    // 名前をURLエンコード
-    $encoded_name = urlencode($name);
-
-    // complete.phpへリダイレクト
-    header("Location: complete.php?name=" . $encoded_name);
-    exit;
-}
 ?>
 <!DOCTYPE html>
 <html lang="ja">
